@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Defne Koparal</title>
+  <title>🌌🪼🌊🎧🪬🃏🎧�</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Google Font: Playfair Display -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
   
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
     /* Reset */
     * {
@@ -71,25 +75,26 @@
     }
 
     h2 {
-      color: #800080;
+      color: #800080; /* purple instead of red */
       margin-bottom: 1rem;
       font-weight: 700;
     }
 
+    /* Project Cards */
     #projects .card {
-  background: #eee0ff; /* soft lavender */
-  color: #2d0052; /* deep purple text */
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, background 0.2s ease;
-}
+      background: #eee0ff; /* soft lavender */
+      color: #2d0052; /* deep purple text */
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
 
-#projects .card:hover {
-  transform: translateY(-5px);
-  background: #d5b3ff; /* brighter lavender on hover */
-}
+    #projects .card:hover {
+      transform: translateY(-5px);
+      background: #d5b3ff; /* brighter lavender on hover */
+    }
 
     footer {
       text-align: center;
@@ -97,11 +102,25 @@
       background: #eee;
       margin-top: 3rem;
     }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    /* Contact icons */
+    #contact p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    #contact i {
+      margin-right: 8px;
+      color: #800080;
+    }
   </style>
 </head>
 <body>
   <header>
-    <!-- Replace "profile.jpg" with your actual picture filename -->
     <img src="profile.jpg" alt="Defne Koparal">
     <h1>Defne Koparal</h1>
     <p>Math + Computer & Information Sciences @ Fordham University</p>
@@ -114,7 +133,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Defne, a freshman @ Fordham University studying Math and Computer & Information Sciences. 
+    <p>Hello! I'm Defne, a freshman at Fordham University studying Math and Computer & Information Sciences. 
        I love reading, problem solving, coding, and Formula 1! </p>
   </section>
 
@@ -128,15 +147,21 @@
 
     <div class="card">
       <h3>Personal Website</h3>
-      <p>The site you’re looking at right now! built with HTML + CSS, hosted on GitHub Pages.</p>
+      <p>The site you’re looking at right now- built with HTML + CSS, hosted on GitHub Pages.</p>
     </div>
 
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:dk95@fordham.edu">dk95@fordham.edu</a></p>
-    <p>Phone: <a href="tel:+15162982897">+1 (516) 298-2897</a></p>
+    <p><i class="fa-solid fa-envelope"></i>Email: 
+       <a href="mailto:dk95@fordham.edu">dk95@fordham.edu</a></p>
+    <p><i class="fa-solid fa-phone"></i>Phone: 
+       <a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+    <p><i class="fa-brands fa-github"></i>GitHub: 
+       <a href="https://github.com/defnekoparal" target="_blank">github.com/defnekoparal</a></p>
+    <p><i class="fa-solid fa-file"></i>CV: 
+       <a href="Defne-Koparal-CV.pdf" target="_blank">Download my CV (PDF)</a></p>
   </section>
 
   <footer>
