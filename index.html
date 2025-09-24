@@ -3,10 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <title>Defne Koparal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #8b0000, #b22222); /* Ferrari red vibes */
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem 4rem 1rem;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      margin-top: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h2 {
+      color: #8b0000;
+      margin-bottom: 1rem;
+    }
+
+    #projects .card {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    #projects .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Defne Koparal</h1>
-  <p>Welcome to my personal website!</p>
-  <p>I'm a freshman at Fordham University studying Math and Computer & Information Sciences.</p>
+  <header>
+    <!-- Replace "profile.jpg" with your actual picture filename -->
+    <img src="profile.jpg" alt="Defne Koparal">
+    <h1>Defne Koparal</h1>
+    <p>Math + Computer & Information Sciences @ Fordham University</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Defne, a freshman at Fordham University studying Math and Computer & Information Sciences. 
+       I love problem solving, coding, and Formula 1! 🚦</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Formula 1 Travel Optimization</h3>
+      <p>Using graph theory + Python to optimize F1 team travel routes for the 2025 season.</p>
+    </div>
+
+    <div class="card">
+      <h3>Personal Website</h3>
+      <p>The site you’re looking at right now 🎉 built with HTML + CSS, hosted on GitHub Pages.</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:defne.koparal@example.com">defne.koparal@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/defnekoparal" target="_blank">github.com/defnekoparal</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Defne Koparal</p>
+  </footer>
 </body>
 </html>
