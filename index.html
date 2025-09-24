@@ -77,17 +77,19 @@
     }
 
     #projects .card {
-      background: white;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
-    }
+  background: #eee0ff; /* soft lavender */
+  color: #2d0052; /* deep purple text */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
 
-    #projects .card:hover {
-      transform: translateY(-5px);
-    }
+#projects .card:hover {
+  transform: translateY(-5px);
+  background: #d5b3ff; /* brighter lavender on hover */
+}
 
     footer {
       text-align: center;
@@ -133,7 +135,8 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:defne.koparal@example.com">dk95@fordham.edu</a></p>
+    <p>Email: <a href="mailto:dk95@fordham.edu">dk95@fordham.edu</a></p>
+    <p>Phone: <a href="tel:+15162982897">+1 (516) 298-2897</a></p>
   </section>
 
   <footer>
